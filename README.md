@@ -10,7 +10,6 @@ A simple usage example:
 import 'package:twilio_dart/twilio_dart.dart';
 
 main() {
-  var awesome = new Awesome();
 }
 ```
 

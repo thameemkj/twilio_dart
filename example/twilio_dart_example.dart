@@ -1,9 +1,9 @@
 import 'package:twilio_dart/twilio_dart.dart';
 
-const String ACCOUNT_SID = '';
-const String AUTH_TOKEN = '';
-const String FROM_NUMBER = '+19122748564';
-const String TO_NUMBER = '+919400049950';
+const String ACCOUNT_SID = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+const String AUTH_TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+const String FROM_NUMBER = '+0123456789';
+const String TO_NUMBER = '+9876543210';
 
 void main() async {
   var client = Twilio.client(
@@ -19,7 +19,7 @@ void main() async {
   //   body: 'Test Message 1',
   // );
 
-  //response = await client.messages.fetch(sid: '');
+  //response = await client.messages.fetch(sid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
 
   response = await client.calls.create(
     from: FROM_NUMBER,
