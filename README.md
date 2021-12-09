@@ -4,7 +4,7 @@ Twilio helper library for Dart developers.
 
 ## Dependencies
 
-* [http][https://pub.dev/packages/http]
+* [http](https://pub.dev/packages/http)
 
 ## Usage
 
