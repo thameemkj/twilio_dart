@@ -2,6 +2,10 @@
 
 Twilio helper library for Dart developers.
 
+## Dependencies
+
+* [http][https://pub.dev/packages/http]
+
 ## Usage
 
 Instantiate twilio client:
@@ -33,6 +37,7 @@ void main() async{
     print(response);
 }
 ```
+
 
 ## Report features and bugs
 
