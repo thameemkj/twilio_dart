@@ -37,9 +37,23 @@ void main() async{
     print(response);
 }
 ```
+
+Fetch message:
+
+```dart
+import 'package:twilio_dart/twilio_dart.dart';
+
+void main() async{
+    var response = await client.messages.fetch(
+        sid: 'SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', // Message SID
+    );
+    print(response);
+}
+```
+
 ## Current features
 
-* Message
+* Send/Fetch Message
     * SMS
     * MMS
 
