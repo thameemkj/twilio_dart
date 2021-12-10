@@ -37,7 +37,11 @@ void main() async{
     print(response);
 }
 ```
+## Current features
 
+* Message
+    * SMS
+    * MMS
 
 ## Report features and bugs
 
