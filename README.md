@@ -80,7 +80,7 @@ void main() async{
 
 ## Current features
 
-* Send/Fetch Message
+* Send/Fetch Messages
     * SMS
     * MMS
 * Create/Fetch Calls
