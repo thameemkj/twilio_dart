@@ -71,7 +71,7 @@ Fetch call:
 import 'package:twilio_dart/twilio_dart.dart';
 
 void main() async{
-    var var response = await client.calls.fetch(
+    var response = await client.calls.fetch(
         sid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', // Call SID
     );
     print(response);
